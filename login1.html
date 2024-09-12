@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <form action="succes.html">
+        <legend>login Form</legend>
+        <label for="name">username:</label>
+        <input type="text" id="name" name="name" pattern="[A-Za-z]+" required><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&])[A-Za-z0-9!@#$%^&]{8}" required><br>
+        <button type="submit">submit</button>
+        <br>
+        <a href="frpassword.html">forget password</a>
+        </form>
+    </fieldset>
+</body>
+</html>
